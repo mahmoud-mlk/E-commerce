@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a:hover{
+    color: red;
+  }
+  footer{
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #333;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  
+  .product {
+    /* width: calc(33.33% - 20px); */
+    width: 300px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2)
+  }
+  .product img{
+    width: 100%;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+ 
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  .search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  #search {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+  }
+  
+  #search:focus {
+    outline: none;
+    border-color: #777;
+  }
+  
+  .search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    width:30px;
+    height:30px;
+    background-color: #0077cc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #005fa3;
+  }
+  
+  .search-button i {
+    color: #fff;
+  }
+  
