@@ -245,7 +245,7 @@ class ProductController extends Controller
 
         //stor total price in order table
         $order->total= $total;
-        $total->save();
+        $order->save();
 
 
         // store phone and adress order in order info
